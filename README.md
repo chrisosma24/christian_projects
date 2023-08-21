@@ -13,7 +13,7 @@ git clone https://github.com/chrisosma24/christian_projects.git
 2. Run shell commands to set up mariadb database
    
    ```
-   bash command.sh
+   bash commands.sh
    ```
 3. Run back-end
    
