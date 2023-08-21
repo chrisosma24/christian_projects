@@ -52,7 +52,7 @@ git clone https://github.com/chrisosma24/christian_projects.git
 1. Change the directory into the project
    
    ```
-   cd weather_now
+   cd weatherProject
    ```
 2. Run the application
    
