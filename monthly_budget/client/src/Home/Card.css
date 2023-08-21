@@ -1,0 +1,101 @@
+.card { 
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 19rem;
+}
+
+.cardHeader { 
+    border-radius: 10px 10px 0 0;
+    width: 19rem;
+    height: 1.8rem;
+    background-color: green;
+    text-align: center;
+}
+
+.cardHeader h3 { 
+    margin-top: 0;
+}
+
+.columnNames, .expenseRow { 
+    border-bottom: solid;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.expenseRow { 
+    align-items: center;
+}
+
+.columnNames h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.firstRow { 
+    width: 47%;
+}
+
+.secondRow { 
+    width: 30%;
+}
+
+.deleteImage { 
+    margin-left: 10px;
+    height: 26px;
+    width: 26px;
+}
+
+.deleteImage:hover { 
+    cursor: pointer;
+}
+
+.expenseSection { 
+    max-height: 5rem;
+    overflow-y: scroll;
+}
+
+.expenseRow h3 { 
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.totalExpense { 
+    display: flex;
+    justify-content: space-around;
+    background-color: #D0B8A8;
+}
+
+.totalExpense h3 { 
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.addExpense { 
+    align-items: center;
+    background-color: green;
+    border-radius: 0 0 10px 10px;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.expenseInput { 
+    border-radius: 0 0 0 10px;
+    width: 47%;
+}
+
+.amountInput { 
+    width: 33%;
+}
+
+.addImage { 
+    height: 27px;
+    width: 27px;
+    margin-left: 10px;
+}
+
+.addImage:hover { 
+    cursor: pointer;
+}

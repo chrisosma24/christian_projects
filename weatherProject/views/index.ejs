@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Project </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <heading>
+      <div class="firstSection">
+        <h2>WeatherNow</h2>
+        <img src="images/sunny-removebg-preview.png" alt="weather logo">
+      </div>
+      <div class="secondSection">
+      </div>
+    </heading>
+    <form class="" action="/" method="post">
+      <h1>Click the button to get weather!</h1>
+      <input type="text" name = "city" placeholder = "Enter a city: ">
+      <button type="submit" name="button">Go!</button>
+    </form>
+    <div class="weatherData">
+      <div class="mainSection">
+          <h3> <em> <%=weatherMain%> </em> </h3>
+          <h4> <%=weatherDescription%> </h4>
+      </div>
+      <div class="temperatureSection">
+        <img class = "twoImages" src=<%=temperatureSectionImage%>>
+        <h3> <%=locationTemp%> </h3>
+        <h4> <%= locationHum %> </h4>
+      </div>
+      <div class="windSection">
+        <img class = "twoImages" src=<%=windSectionImage%>>
+        <h3> <%= speed %> </h3>
+        <h4> <%= windDirection %> </h4>
+      </div>
+    </div>
+    <script src = "app.js" type="text/javascript"></script>
+  </body>
+</html>

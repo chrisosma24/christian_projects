@@ -1,0 +1,5 @@
+create database moviedb;
+use moviedb;
+create table movie (id int primary key default 0, name varchar(50) not null, date varchar(10) not null, description text not null, username varchar(30) not null, image mediumblob not null);
+create table review (id int primary key default 0, movieid int not null, rating int not null, created_date date not null, username varchar(30) not null, review text not null, likes int, foreign key (movieid) references Movie(id));
+create table comment (id int primary key default 0, reviewid int not null, created_date date not null, username varchar(30) not null, comment text not null, foreign key (reviewid) references Review(id));

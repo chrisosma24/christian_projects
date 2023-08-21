@@ -1,0 +1,117 @@
+.home { 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282c34;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home h1 { 
+    margin: 0;
+    padding-top: 30px;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.home h2 {
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    color: rgb(164, 151, 151);
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.home h2:hover {
+    cursor: pointer;
+}
+
+.home input { 
+    height: 2rem;
+}
+
+.home input::placeholder { 
+    font-size: 17px;
+}
+
+.inputSection { 
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.usernameinput {
+    width: 10rem;
+}
+
+.searchingDiv { 
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 20rem;
+}
+
+.queriedMovies { 
+    border-top: 1px solid black;
+    position: absolute;
+    top: 2.2rem;
+    left: 1px;
+    height: 18rem;
+    width: 19.9rem;
+    background-color: white;
+    overflow-y: scroll;   
+}
+
+.queriedMovies h3{ 
+    color: blue;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+    padding-left: 6px;
+}
+
+.queriedMovies h3:hover { 
+    cursor: pointer;
+}
+
+.searchDiv { 
+    height: 2.3rem;
+    width: 3rem;
+    background-color: rgb(174, 174, 174);
+}
+
+.searchInput { 
+    width: 30rem;
+}
+
+.searchDiv:hover { 
+    cursor: pointer;
+}
+
+.searchDiv img{ 
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.error { 
+    position: absolute;
+    top: 45%;
+    left: 31.2%;
+    height: 1.2rem;
+    background-color: red;
+    width: 9rem;
+}
+
+.error p {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+}

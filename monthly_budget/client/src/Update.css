@@ -1,0 +1,81 @@
+.loginPage{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    background-color: #E5E5CB;
+    text-align: center;
+}
+
+.loginForm { 
+    text-align: center;
+    width: 100vw;
+    height: 60rem;
+    border-color: blue;
+    border-width: 5px;
+    padding-top: 10rem;
+}
+
+.loginForm h1 { 
+    margin: 0;
+    margin-bottom: 5.6rem;
+    border: 0;
+    font-size: 6rem;
+}
+
+.errorDiv {
+    height: 1.6rem;
+    width: 100vw;
+    background-color: #E5E5CB;
+    position: relative;
+}
+
+.errorBlock { 
+    border-radius: 50px;
+    position: absolute;
+    left: 41vw;
+    background-color: red;
+    height: 1.6rem;
+    width: 16rem;
+}
+
+.errorBlock p { 
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.errorMessage { 
+    font-weight: bold;
+}
+
+input { 
+    height: 1.5rem;
+    width: 12rem;
+}
+
+input::placeholder { 
+    font-size: 1rem;
+}
+
+button { 
+    font-size: 13px;
+    height: 1.2rem;
+    width: 4rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.loginForm h2 { 
+    font-size: 13px;
+    color: #82AAE3;
+    position: relative;
+}
+
+.loginForm h2:hover { 
+    cursor: pointer;
+    color: blue;
+}

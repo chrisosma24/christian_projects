@@ -1,0 +1,57 @@
+.header { 
+    background-color: green;
+    width: 96%;
+    padding: 0 2%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.leftHeader { 
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.leftHeader h2{ 
+    margin: 0;
+    font-size: 55px;
+}
+
+.headerImage, .logoImage { 
+    width: 60px;
+    height: 60px;
+}
+
+.logoImage:hover { 
+    cursor: pointer;
+}
+
+.whiteSection { 
+    top: 4.8rem;
+    right: 0.6rem;
+    position: absolute;
+    width: 12rem;
+    height: 16rem;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.whiteSection p {
+    margin-bottom: 2rem;
+}
+
+.whiteSection p:hover{
+    cursor: pointer;
+}
+
+.delete { 
+    color: red;
+    font-weight: bolder;
+}
+
+.nothing { 
+    display: none;
+}

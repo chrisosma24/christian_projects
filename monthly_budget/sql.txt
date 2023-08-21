@@ -1,0 +1,4 @@
+create database budget;
+use budget;
+create table User (id int primary key, username varchar(30) not null, password binary(60) not null);
+create table Expenses (id int primary key, userid int not null, category varchar(15) not null, expense varchar(30) not null, amount double not null, foreign key (userid) references User(id));
